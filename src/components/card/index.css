@@ -1,0 +1,43 @@
+.card{
+    width: 350px;
+    display: inline-block;
+    padding: 5px
+}
+
+.card__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px 8px 0 0;
+    background-color: #db2a0b;
+}
+
+.card__body{
+    display: flex;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    padding: 10px;
+    height: 200px;
+    justify-content: center;
+}
+
+.card__col-left, .card__col-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.card__col-right{
+    padding-left: 10px;
+}
+
+.card__col-left-title, .card__col-right-description{
+    font-size: 16px;
+    color: #3b3b3b;
+    border-bottom: 1px solid black;
+}
+
+
